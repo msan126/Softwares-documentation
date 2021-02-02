@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Test'
-copyright = '2020, msan126'
-author = 'msan126'
+project = 'Segmentation tutorial'
+copyright = '2021, msan126'
+author = 'Marianne Sanchez'
 
 # The full version, including alpha/beta/rc tags
 release = 'v1'

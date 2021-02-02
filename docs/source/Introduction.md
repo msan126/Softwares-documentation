@@ -1,3 +1,3 @@
 # Introduction
 
-Hello world
+This tutorial will help you to discover new softwares useful for segmentation.
