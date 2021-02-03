@@ -6,5 +6,4 @@ Segmentation
    :caption: Contents:
 
    Segmentation/standardoperatingprocedure
-   Image modification
-   Running code
+   Segmentation/installation

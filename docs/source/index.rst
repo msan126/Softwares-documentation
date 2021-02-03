@@ -9,7 +9,6 @@ Softwares' documentation!
    :caption: Contents:
 
    Segmentation
-   Image modification
    Running code
 
 
