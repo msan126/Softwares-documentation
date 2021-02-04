@@ -1,16 +1,16 @@
-*******
+************
 Installation
-*******
+************
 
 .. toctree::
    :maxdepth: 2
 
-=======
+======================
 Segmentation softwares
-=======
+======================
 
 MITK
--------------------------------------------
+----
 
 First, install MITK.
 
@@ -18,45 +18,45 @@ First, install MITK.
 * For Linux, donwnload the `software <https://www.mitk.org/download/releases/MITK-2018.04.2/Linux/MITK-v2018.04.2-linux-x86_64.tar.gz>`_
 Extract the data in the chosen folder and then open a new terminal.
 
-```bash
-msan126@bn391471:/hpc/msan126$ cd /hpc/msan126/usr/MITK-v2018.04.2-linux-x86_64/
-./MitkWorkbench.sh
-```
+..code:: bash
+    msan126@bn391471:/hpc/msan126$ cd /hpc/msan126/usr/MITK-v2018.04.2-linux-x86_64/
+    ./MitkWorkbench.sh
+
 
 ITK-Snap
--------------------------------------------
+--------
 
 * For Windows, download it on the `website <http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP2>`_.
 * For Linux, download the `Linux Binary <http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP3>`_(64 bit, Qt4).
 Then, download this `package <https://packages.ubuntu.com/xenial/libpng12-0>`_ .Compile it and install it in a new terminal :
 
-```bash
-cd libpng-1.2.54
-./autogen.sh
-./configure
-make -j8
-make install
-ldconfig
-cd ../itksnap/
-ls
-cd itksnap-3.8.0-20190612-Linux-gcc64/
-cd bin/
-./itksnap
-export LD_LIBRARY_PATH=/hpc/msan126/usr/libpng/libpng-1.2.54/lib:$LD_LIBRARY_PATH
-./itksnap
-```
+..code:: bash
+    cd libpng-1.2.54
+    ./autogen.sh
+    ./configure
+    make -j8
+    make install
+    ldconfig
+    cd ../itksnap/
+    ls
+    cd itksnap-3.8.0-20190612-Linux-gcc64/
+    cd bin/
+    ./itksnap
+    export LD_LIBRARY_PATH=/hpc/msan126/usr/libpng/libpng-1.2.54/lib:$LD_LIBRARY_PATH
+    ./itksnap
+
 
 Paraview
--------------------------------------------
+--------
 
 * For Windows, download it on the `website <https://www.paraview.org/download/>`_.
 * For Linux, download the Linux version corresponding to your Pycharm on the following `link <https://www.paraview.org/download/>`_
 Then, cut it and put it on your hpc.
 
-```bash
-cd /hpc/msan126/usr/ParaView-5.7.0-MPI-Linux-Python3.7-64bit/bin
-./paraview
-```
+..code:: bash
+    cd /hpc/msan126/usr/ParaView-5.7.0-MPI-Linux-Python3.7-64bit/bin
+    ./paraview
+
 
 To read nifti files, you need to go on Tools then Manage Plugins, click on AnalyzeNIfTIReaderWriter and then select Auto
 Load. To apply it, click on Load Selected. After that to add MRI, select it in the folder and click-right on it :
