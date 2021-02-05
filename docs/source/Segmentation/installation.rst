@@ -15,22 +15,23 @@ MITK
 First, install MITK.
 
 * For Windows, follow this `link <https://www.mitk.org/download/releases/MITK-2018.04.2/Windows/MITK-v2018.04.2-windows-x86_64.exe>`_
+Then, install it.
 * For Linux, donwnload the `software <https://www.mitk.org/download/releases/MITK-2018.04.2/Linux/MITK-v2018.04.2-linux-x86_64.tar.gz>`_
 Extract the data in the chosen folder and then open a new terminal.
 
-..code:: bash
-    msan126@bn391471:/hpc/msan126$ cd /hpc/msan126/usr/MITK-v2018.04.2-linux-x86_64/
+.. code-block:: python
+    cd /hpc/msan126/usr/MITK-v2018.04.2-linux-x86_64/
     ./MitkWorkbench.sh
 
 
 ITK-Snap
 --------
 
-* For Windows, download it on the `website <http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP2>`_.
+* For Windows, download it on the `website <http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP2>`_.Then, install it.
 * For Linux, download the `Linux Binary <http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP3>`_(64 bit, Qt4).
 Then, download this `package <https://packages.ubuntu.com/xenial/libpng12-0>`_ .Compile it and install it in a new terminal :
 
-..code:: bash
+.. code-block:: python
     cd libpng-1.2.54
     ./autogen.sh
     ./configure
@@ -49,11 +50,11 @@ Then, download this `package <https://packages.ubuntu.com/xenial/libpng12-0>`_ .
 Paraview
 --------
 
-* For Windows, download it on the `website <https://www.paraview.org/download/>`_.
+* For Windows, download it on the `website <https://www.paraview.org/download/>`_. Follow the instructions and install it.
 * For Linux, download the Linux version corresponding to your Pycharm on the following `link <https://www.paraview.org/download/>`_
 Then, cut it and put it on your hpc.
 
-..code:: bash
+.. code-block:: python
     cd /hpc/msan126/usr/ParaView-5.7.0-MPI-Linux-Python3.7-64bit/bin
     ./paraview
 

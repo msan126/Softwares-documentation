@@ -1,82 +1,62 @@
-*******
-Vitual environment
-*******
+******************
+Virtual environment
+******************
 
 .. toctree::
    :maxdepth: 2
 
-=======
+=====
 Linux
-=======
+=====
 
 Creation
--------------------------------------------
+--------
 
-[msan126@hpc2]virtualenv --system-site-packages -p python3 ./tensorflow1_12HPC2
-[msan126@hpc2]source ./tensorflow1_12HPC2/bin/activate
+To create a new virtual environment, you have two possibilities. The new virtual environment can be created in an hpc or
+on your own terminal. Select where you want to have it, then open a new terminal and follow the next steps:
 
-(tensorflow1_12HPC2) [msan126@hpc2]pip install libconf
-(tensorflow1_12HPC2) [msan126@hpc2]pip install tensorflow-gpu==1.12
-(tensorflow1_12HPC2) [msan126@hpc2]python3
->>> import tensorflow
->>> quit()
+.. code-block:: python
+    virtualenv --system-site-packages -p python3 ./tensorflow[version]
+    source ./tensorflow[version]/bin/activate
 
-If you need more information, go on the website:
-https://www.tensorflow.org/install/pip
+Then, add the libraries needed to run your project, for example:
 
-Installation of complements like tensorflow, scihub...
--------------------------------------------
+.. code-block:: python
+    pip install libconf
+    pip install tensorflow-gpu==1.12
+    python3
+    >>> import tensorflow
+    >>> quit()
 
-Go on the site to see the version that you want : https://www.tensorflow.org/install/pip.
-Then, you can find the different steps that you need to add on your terminal:
-
-msan126@bn391471:/hpc/msan126$ cd PycharmProjects/tutorial/
-msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial$ ls msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial$ cd venv/bin/
-msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial/venv/bin$ source activate
-(venv) msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial/venv/bin$ pip install tensorflow==1.8
-(venv) msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial/venv/bin$ pip install scipy
-(venv) msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial/venv/bin$ pip install matplotlib
-msan126@bn391471:~$ source /hpc/msan126/PycharmProjects/tutorial/venv/bin/activate
-(venv) msan126@bn391471:~$ python
-(venv) msan126@bn391471:~$ pip install nibabel
-(venv) msan126@bn391471:~$ pip install pydicom
+If you need more information, go on the `website <https://www.tensorflow.org/install/pip>`_.
 
 =======
 Windows
 =======
 
 Creation
--------------------------------------------
+-------
 
 To install a virtual environment for your Python, follow the next steps:
+We suppose Python is already installed, if it is not already done, go to the python Section.
 
 * Open the command prompt, and execute it:
 
-```bash
-pip install virtualenv
-```
+.. code-block:: python
+    pip install virtualenv
 
 * If you are working on Windows, execute in the command prompt the next step:
 
-```bash
-pip install virtualenvwrapper-win (only for windows)
-```
+.. code-block:: python
+    pip install virtualenvwrapper-win
 
 * Now, create the virtual environment:
 
-```bash
-mkvirtualenv scaffold-venv36
-```
+.. code-block:: python
+    mkvirtualenv scaffold-venv36
 
-* Then, activate the virtual environment and make sure it is still activate for the entire time
-you are installing the following tools. Two possibilities:
+* Then, activate the virtual environment and make sure it is still activate for the entire time, you need it. Execute in
+the command prompt the next step:
 
-      *  If you are working on Windows, execute in the command prompt the next step:
-
-```bash
-workon scaffold-venv36
-```
-      *  If you are working on Linux or Mac, execute in the command prompt the next step and complete it:
-```bash
-source [folder]/activate
-```
+.. code-block:: python
+    workon scaffold-venv36
