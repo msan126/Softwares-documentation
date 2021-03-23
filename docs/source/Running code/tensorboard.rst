@@ -6,7 +6,7 @@ Tensorboard
    :maxdepth: 2
 
 Linux
---------
+*****
 
 Tensorboard is a tool often used in machine learning. It provides measurements and visualizations during the machine
 learning workflow. It could present graphs and tables for metrics like loss or accuracy.

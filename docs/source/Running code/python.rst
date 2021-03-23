@@ -1,5 +1,5 @@
 Installation of complements like scihub
--------------------------------------------
+***************************************
 
 Go on the site to see the version that you want : https://www.tensorflow.org/install/pip.
 Then, you can find the different steps that you need to add on your terminal:

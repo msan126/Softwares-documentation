@@ -5,12 +5,11 @@ Installation
 .. toctree::
    :maxdepth: 2
 
-======================
 Segmentation softwares
-======================
+######################
 
 MITK
-----
+****
 
 First, install MITK.
 
@@ -25,7 +24,7 @@ Extract the data in the chosen folder and then open a new terminal.
 
 
 ITK-Snap
---------
+********
 
 * For Windows, download it on the `website <http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP2>`_.Then, install it.
 * For Linux, download the `Linux Binary <http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP3>`_(64 bit, Qt4).
@@ -48,19 +47,15 @@ Then, download this `package <https://packages.ubuntu.com/xenial/libpng12-0>`_ .
 
 
 Seg3D
------
+*****
 
 * For Windows, download it on the `website <https://www.paraview.org/download/>`_. Follow the instructions and install it.
-* For Linux, download the Linux version corresponding to your Pycharm on the following `link <https://www.paraview.org/download/>`_
-Then, cut it and put it on your hpc.
 
-.. code-block:: python
-    cd /hpc/msan126/usr/ParaView-5.7.0-MPI-Linux-Python3.7-64bit/bin
-    ./paraview
+If you want more information, you can find a lot of `documentation <https://www.sci.utah.edu/cibc-software/seg3d.html>`_.
 
 
 Paraview
---------
+********
 
 * For Windows, download it on the `website <https://www.paraview.org/download/>`_. Follow the instructions and install it.
 * For Linux, download the Linux version corresponding to your Pycharm on the following `link <https://www.paraview.org/download/>`_

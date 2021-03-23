@@ -5,12 +5,12 @@ Virtual environment
 .. toctree::
    :maxdepth: 2
 
-=====
+
 Linux
-=====
+######
 
 Creation
---------
+********
 
 To create a new virtual environment, you have two possibilities. The new virtual environment can be created in an hpc or
 on your own terminal. Select where you want to have it, then open a new terminal and follow the next steps:
@@ -30,12 +30,12 @@ Then, add the libraries needed to run your project, for example:
 
 If you need more information, go on the `website <https://www.tensorflow.org/install/pip>`_.
 
-=======
+
 Windows
-=======
+#######
 
 Creation
--------
+********
 
 To install a virtual environment for your Python, follow the next steps:
 We suppose Python is already installed, if it is not already done, go to the python Section.
