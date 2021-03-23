@@ -47,6 +47,18 @@ Then, download this `package <https://packages.ubuntu.com/xenial/libpng12-0>`_ .
     ./itksnap
 
 
+Seg3D
+-----
+
+* For Windows, download it on the `website <https://www.paraview.org/download/>`_. Follow the instructions and install it.
+* For Linux, download the Linux version corresponding to your Pycharm on the following `link <https://www.paraview.org/download/>`_
+Then, cut it and put it on your hpc.
+
+.. code-block:: python
+    cd /hpc/msan126/usr/ParaView-5.7.0-MPI-Linux-Python3.7-64bit/bin
+    ./paraview
+
+
 Paraview
 --------
 
