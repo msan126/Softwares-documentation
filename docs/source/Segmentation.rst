@@ -5,5 +5,7 @@ Segmentation
    :maxdepth: 2
    :caption: Contents:
 
-   Segmentation/installation
-   Segmentation/standardoperatingprocedure
+   Segmentation/ITK-Snap
+   Segmentation/MITK
+   Segmentation/Paraview
+   Segmentation/Seg3D

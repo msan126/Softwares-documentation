@@ -5,9 +5,8 @@ Running code
    :maxdepth: 2
    :caption: Contents:
 
-   Running code/python
-   Running code/Git
    Running code/pycharm
+   Running code/Git
    Running code/virtualenv
    Running code/tensorboard
    Running code/sphinx
