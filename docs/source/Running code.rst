@@ -9,5 +9,4 @@ Running code
    Running code/Git
    Running code/virtualenv
    Running code/tensorboard
-   Running code/sphinx
    Running code/stradview
