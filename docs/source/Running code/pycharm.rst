@@ -51,22 +51,18 @@ Then follow the instructions on the downloading window.
 Installation of complements like tensorflow, scihub...
 ######################################################
 
-Go to the website to see the version that you want : https://www.tensorflow.org/install/pip.
-Then, you can find the different steps that you need to add on your terminal:
+Go to the `website <https://www.tensorflow.org/install/pip>`_ to check the required version. Then, write in a new terminal the next steps.
 
-msan126@bn391471:/hpc/msan126$ cd PycharmProjects/tutorial/
-msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial$ ls msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial$ cd venv/bin/
-msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial/venv/bin$ source activate
-(venv) msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial/venv/bin$ pip install tensorflow==1.8
-(venv) msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial/venv/bin$ pip install scipy
-(venv) msan126@bn391471:/hpc/msan126/PycharmProjects/tutorial/venv/bin$ pip install matplotlib
-msan126@bn391471:~$ source /hpc/msan126/PycharmProjects/tutorial/venv/bin/activate
-(venv) msan126@bn391471:~$ python
-(venv) msan126@bn391471:~$ pip install nibabel
-(venv) msan126@bn391471:~$ pip install pydicom
+.. code-block:: python
+    cd PycharmProjects/tutorial/ #this is the path for the created project
+    cd venv/bin/
+    source activate
+    pip install tensorflow==1.8
+    pip install scipy
+    pip install matplotlib
 
-
-msan126@bn391471:~$ ssh msan126@hpc2
-Are you sure you want to continue connecting (yes/no)? y
-[msan126@hpc2]nvidia-smi
-[msan126@hpc5]watch -n 1 nvidia-smi
+You can also directly enter the path and add the librairies.
+.. code-block:: python
+    source /hpc/[upi]]/PycharmProjects/tutorial/venv/bin/activate
+    pip install nibabel
+    pip install pydicom
